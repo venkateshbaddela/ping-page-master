@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <div class="top-head">Ping<span class="top-head__span">.</span></div>
+        <h2 class="top-heading">
+          We are launching <span class="top-heading__span">soon!</span>
+        </h2>
+        <p class="top-text">Subscribe and get notified</p>
+
+        <form action="#" class="top-form">
+          <input
+            type="text"
+            class="top-form__input"
+            placeholder="Your email address"
+          />
+          <p class="form-text">Please provide a valid email address</p>
+          <button class="top-form__btn btn" type="submit">Notify Me</button>
+        </form>
+      </div>
+
+      <div class="mid">
+        <img
+          src="images/illustration-dashboard.png"
+          alt="dashboard image"
+          class="mid-img"
+        />
+      </div>
+
+      <div class="bot">
+        <svg class="bot-logo">
+          <use xlink:href="images/sprite.svg#icon-facebook"></use>
+        </svg>
+
+        <svg class="bot-logo">
+          <use xlink:href="images/sprite.svg#icon-twitter"></use>
+        </svg>
+
+        <svg class="bot-logo">
+          <use xlink:href="images/sprite.svg#icon-instagram"></use>
+        </svg>
+
+        <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">venkateshb</a>.
+      </p>
+    </footer>
+  </body>
+</html>
